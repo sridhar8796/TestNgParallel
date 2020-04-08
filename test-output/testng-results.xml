@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="67511" started-at="2020-03-30T06:46:10Z" finished-at="2020-03-30T06:47:18Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testrunner.TestRunner@2752f6e2]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="67511" started-at="2020-03-30T06:46:10Z" finished-at="2020-03-30T06:47:18Z">
+      <class name="com.testrunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.testrunner.TestRunner@2752f6e2]" name="setUpClass" is-config="true" duration-ms="958" started-at="2020-03-30T12:16:10Z" finished-at="2020-03-30T12:16:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testrunner.TestRunner@2752f6e2]" name="runScenario" duration-ms="65986" started-at="2020-03-30T12:16:11Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-03-30T12:17:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To verify whether the user can able to login with all possible combination"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To validate the login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testrunner.TestRunner@2752f6e2]" name="runScenario" duration-ms="61441" started-at="2020-03-30T12:16:11Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-03-30T12:17:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To verify whether the user can able to login with all possible combination"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To validate the login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testrunner.TestRunner@2752f6e2]" name="runScenario" duration-ms="65464" started-at="2020-03-30T12:16:11Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-03-30T12:17:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To verify whether the user can able to login with all possible combination"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To validate the login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.testrunner.TestRunner@2752f6e2]" name="tearDownClass" is-config="true" duration-ms="202" started-at="2020-03-30T12:17:17Z" finished-at="2020-03-30T12:17:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.testrunner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
